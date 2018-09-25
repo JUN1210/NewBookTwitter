@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-
+"""
 !pip install bottlenose
 !pip install retry
 !pip install twitter
 !pip install beautifulsoup4
 !pip install requests
 !pip3 install lxml
-
+"""
 import os
 import urllib
 import re
