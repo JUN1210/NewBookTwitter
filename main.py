@@ -139,7 +139,7 @@ def tweet(tweet_df):
     for i,v in tweet_df.iterrows():
         print(i,v["title"],v["author"],v["url"])
         print("i: " + str(i) + " v: " + str(v))
-        tweet =v["title"] +"\n"+ v["author"] +" "+ "v[price]" + "\n" + "発売日:" + v["releaseDate"] + "\n" + "#"+ v["author"]+" #NewRelease" + "\n" + v["url"] # tweetの文面部
+        tweet =v["title"] +"\n"+ v["author"] +" "+ v["price"] + "\n" + "発売日:" + v["releaseDate"] + "\n" + "#"+ v["author"]+" #NewRelease" + "\n" + v["url"] # tweetの文面部
         media_name = v["image"]
         tweets.append(tweet)
 
